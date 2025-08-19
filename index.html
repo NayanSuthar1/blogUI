@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Demo</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="searchdiv"><i class="fa-solid fa-magnifying-glass"></i><input type="search" class="search" placeholder="Search for an article or #tag"></div>
+        <button class="createbtn"><i class="fa-solid fa-folder-plus"></i>Create</button>
+        <div class="bell"><i class="fa-solid fa-bell"></i></div>
+        <div class="profile"><img src="nayan.png"></div>
+    </div>
+
+    <div class="post">
+        <div class="account-infos">
+            <div class="dp"><img class="dp" src="download.jpg"></div>
+            <div class="profile-info">
+                <p id="account-name">Scarlet Lady</p>
+                <p id="date-time">Nov 29</p>
+            </div>
+            <button class="sharebtn"><i class="fa-solid fa-share-nodes"></i>    Share
+                <div class="options">
+                    <a href="#" style="font-size: 18px;"><i class="fa-brands fa-whatsapp"></i>   Whatsapp</a>
+                    <a href="#" style="font-size: 18px;"><i class="fa-brands fa-instagram"></i>  Instgram</a>
+                    <a href="#" style="font-size: 18px;"><i class="fa-brands fa-telegram"></i>   Telegram</a>
+                </div>
+            </button>
+            <div class="Save"><i class="fa-regular fa-bookmark"></i>Save</div>
+        </div>
+
+        <div class="hero-section">
+            <div class="hero-picture">
+                <img class="hero-picture" src="gizapy.jpeg">
+            </div>
+
+            <div class="interaction">
+                <div class="like-btn"><i class="fa-regular fa-heart"></i></div>
+                <div class="comment-btn"><i class="fa-regular fa-comment"></i></div>
+                <div class="more-btn"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+
+            <pre id="pic-title">P y r a m i d s    of    G i z a </pre>
+
+            <div class="tag-container">
+                <div id="history" class="tags">#history</div>
+                <div id="Egypt" class="tags">#Egypt</div>
+                <div id="Archaeology" class="tags">#Archaeology</div>
+                <div id="Architecture" class="tags">#Architecture</div>
+                <div id="Pyramids" class="tags">#Pyramids</div>
+            </div>
+
+            <h3 id="title">The majesty of these ancient ruins will mesmerize you.</h3>
+            <p id="story">My brother and I took a tour of Egypt in 2018. From the minute we landed in Cairo, until the minute we left, it was stunning. The feeling you are immeresed in another world is extremely exciting.</p>
+        </div>  
+        <div class="account-info">
+            <div class="acc-dp"><img class="acc-dp" src="download.jpg"></div>
+            <h3 id="user-id">Scarlet Lady</h3>
+            <div class="subs-likes">
+                <div id="subs"><i class="fa-solid fa-user" style="color: #790c94;"></i><t></t>  35 Subscribers</div>
+                <div id="likes"><i class="fa-solid fa-thumbs-up" style="color: #790c94;"></i><t></t>  350 Likes</div>
+            </div>
+
+            <button class="subscribe-btn">Subscribe</button>
+            <div class="about-account">
+                <h3 id="About-user">About me</h3>
+                <div id="bio">Hi, you can call me Scarlet. I'm a content creator. I like to write interesting articles. I'm always looking for new ways to create and express myself. I have been blogging for years now. I want to improve myself this year.</div>
+            </div>  
+
+            <div class="socs">
+                <h2 class="socials-user">Social Media</h2>
+                <div id="instagram"><i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; color: black;" href="https://www.instagram.com/nayansuthar_1/">@scarletlady</a></div>
+                <div id="twitter"><i class="fa-brands fa-square-x-twitter"></i>&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; color: black;" href="https://x.com/nayansuthar_1">@scarletladytwitter</a></div>
+            </div>
+        </div>  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
